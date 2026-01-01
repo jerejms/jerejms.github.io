@@ -187,7 +187,7 @@ setInterval(() => {
 
 muteBtn.addEventListener("click", () => {
   audio.muted = !audio.muted;
-  muteBtn.textContent = audio.muted ? "UNMUTE 🔊" : "MUTE 🔇";
+  muteBtn.textContent = audio.muted ? "UNMUTE" : "MUTE";
   setNow(audio.muted ? "music: muted" : (audio.paused ? "music: off" : "music: on"));
 });
 
